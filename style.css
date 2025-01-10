@@ -70,6 +70,50 @@ font-family: "Fira Sans", serif;
     border-radius: 24px;
 }
 
+.section-title{
+    font-size: 22px;
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #0E0E0E;
+    margin-top: 60px;
+}
+
+.pillar-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.pillar-child {
+    background-color: white;
+    padding: 15px;
+    border-radius: 16px;
+}
+
+.pillar-child-title{
+    font-size: 14px;
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.pillar-child-text{
+
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 8px;
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 12px;
+}
+
+.pillar-child-title{
+    margin-bottom: 10px;
+}
+
 
 
 
