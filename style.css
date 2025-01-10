@@ -93,14 +93,15 @@ font-family: "Fira Sans", serif;
     border-radius: 16px;
 }
 
-.pillar-child-title{
+.card-title{
     font-size: 14px;
     font-family: "Fira Sans", serif;
     font-weight: 700;
     font-style: normal;
+    margin-bottom: 8px;
 }
 
-.pillar-child-text{
+.section-text{
 
     color: rgba(14, 14, 14, 0.7);
     font-size: 8px;
@@ -110,10 +111,85 @@ font-family: "Fira Sans", serif;
     line-height: 12px;
 }
 
-.pillar-child-title{
-    margin-bottom: 10px;
+
+.vision-card-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.vision-card-1{
+    background-color: rgba(84, 144, 245, 0.2);
+    padding: 15px;
+    border-radius: 16px;
+}
+
+.btn-vision-1{
+    color: white;
+    font-size: 8px;
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+    background-color: #5490F5;
+    border-radius: 8px;
+    padding: 5px 10px;
+}
+
+
+.vision-card-2{
+    background-color: rgba(198, 228, 214, 1);
+    padding: 15px;
+    border-radius: 16px;
+}
+
+.btn-vision-2{
+    color: white;
+    font-size: 8px;
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+    background-color: #09A15C;
+    border-radius: 8px;
+    padding: 5px 10px;
+}
+
+.vision-card-3{
+    background-color: rgba(247, 235, 207, 1);
+    padding: 15px;
+    border-radius: 16px;
 }
 
 
 
+.btn-vision-3{
+    color: white;
+    font-size: 8px;
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+    background-color: #FFC239;
+    border-radius: 8px;
+    padding: 5px 10px;
+}
 
+
+.blockquote-title{
+    font-size: 12px;
+    font-family: "Fira Sans", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.blockquote-area{
+    background-color: white;
+    background-image: url(assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 10px 15px;
+    background-size: 30px 30px;
+    padding: 20px 10px;
+    border-radius: 16px;
+    margin-top: 32px;
+
+}
